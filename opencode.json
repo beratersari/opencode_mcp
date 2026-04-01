@@ -1,0 +1,14 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "custom_test": {
+      "type": "local",
+      "command": ["python3", "./custom_mcp/server.py"],
+      "enabled": true,
+      "timeout": 10000
+    }
+  },
+  "instructions": [
+    "When testing MCP tools, use the custom_test server tools like echo, add, greet, etc."
+  ]
+}
